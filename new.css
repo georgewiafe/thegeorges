@@ -26,6 +26,7 @@ img{
     display: flex;
     justify-content: center;
 }
+
 /* Extra small devices (phones, 600px and down) */
 @media screen and (max-width: 600px){
     body{
