@@ -16,23 +16,20 @@ body{
     display: flex;
     flex-direction: row;
     justify-content: left;
-    gap: 25px;
+    gap: 15px;
     padding: 60px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 img{
-    height: 800px;
+    height: auto;
+    max-width: 100%;
     display: flex;
-    justify-content: right;
+    justify-content: center;
 }
 /* Extra small devices (phones, 600px and down) */
 @media screen and (max-width: 600px){
     body{
         flex-direction: column;}
-    img{
-        height: auto;
-        max-width: 100%;
-    }
     h1{
         font-size: 50px
     }
@@ -53,7 +50,6 @@ img{
         display: flex;
         justify-content: center;
     }
-    }
     h1{
         font-size: 50px
     }
@@ -66,6 +62,7 @@ img{
     li{
         font-size: 20px;
     }
+}
  /* Medium devices (landscape tablets, 768px and up) */
 @media screen and (min-width: 768px)
 {
@@ -109,6 +106,11 @@ img{
     body{
         flex-direction: row;
         background-color: black;
+        border: 60px goldenrod double;
+    }
+    img{
+        height: 800px;
+        width: 100%;
     }
     h1{
         font-size: 55px;
