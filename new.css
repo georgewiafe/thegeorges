@@ -1,0 +1,142 @@
+h1{
+    font-size: 60px;
+}
+h2{
+    font-size: 55px;
+}
+p{
+    font-size: 30px;
+}
+li{
+    font-size: 25px;
+}
+body{
+    background-color: white;
+    color: rgb(177, 133, 21);
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    border: 50px goldenrod double;
+    gap: 20px;
+    padding: 50px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+img{
+    height: 800px;
+    display: flex;
+    justify-content: right;
+}
+/* Extra small devices (phones, 600px and down) */
+@media screen and (max-width: 600px){
+    body{
+        flex-direction: column;
+        padding: auto;
+    }
+    img{
+        height: 200px;
+    }
+    h1{
+        font-size: 50px
+    }
+    h2{
+        font-size: 45px;
+    }
+    p{
+        font-size: 20px;
+    }
+    li{
+        font-size: 15px;
+    }
+}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media screen and (min-width: 600px){
+    body{
+        flex-direction: column;
+        display: flex;
+        justify-content: center;
+        padding: 25px;
+    }
+    img{
+        height: 280px;
+    }
+    h1{
+        font-size: 50px
+    }
+    h2{
+        font-size: 45px;
+    }
+    p{
+        font-size: 25px;
+    }
+    li{
+        font-size: 20px;
+    }
+}
+ /* Medium devices (landscape tablets, 768px and up) */
+@media screen and (min-width: 768px){
+    body{
+        flex-direction: column;
+        background-color: aqua;
+        padding: 40px;
+    }
+    img{
+        height: 410px;
+    }
+    h1{
+        font-size: 55px
+    }
+    h2{
+        font-size:  45px;
+    }
+    p{
+        font-size: 30px;
+    }
+    li{
+        font-size: 25px;
+    }
+}
+/* Large devices (laptops/desktops, 992px and up) */
+@media screen and (min-width: 992px){
+    body{
+        flex-direction: column;
+        background-color: green;
+    }
+    img{
+        height: 600px;
+    }
+    h1{
+        font-size: 55px
+    }
+    h2{
+        font-size: 45px;
+    }
+    p{
+        font-size: 30px;
+    }
+    li{
+        font-size: 25px;
+    }
+}
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media screen and (min-width: 1200px){
+    body{
+        flex-direction: row;
+        background-color: black;
+    }
+    img{
+        height: 700px;
+        padding: 40px;
+    }
+    h1{
+        font-size: 55px;
+    }
+    h2{
+        font-size: 45px;
+    }
+    p{
+        font-size: 30px;
+    }
+    li{
+        font-size: 25px;
+    }
+}
