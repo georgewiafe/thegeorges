@@ -11,7 +11,7 @@ li{
     font-size: 25px;
 }
 body{
-    background-color: white;
+    background-color: red;
     color: rgb(177, 133, 21);
     display: flex;
     flex-direction: row;
