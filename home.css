@@ -8,41 +8,14 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     flex-direction: row;
 }
+.cont{
+    flex-direction: row;
+}
 .boxes{
     height: 250px;
     width: 25%;
     background-color: purple;
     display: flex;
-    flex-direction: row;
     display: inline-block;
     margin: 65px;
-    align-items: center;
-    margin-left: 100px;
-}
-.boxes2{
-    height: 250px;
-    width: 25%;
-    background-color: purple;
-    display: flex;
-    flex-direction: row;
-    display: inline-block;
-    margin: 65px;
-    align-items: center;
-}
-.boxes3{
-    height: 250px;
-    width: 25%;
-    background-color: purple;
-    display: flex;
-    flex-direction: row;
-    display: inline-block;
-    margin: 65px;
-    align-items: center;
-}
-/* Large devices (laptops/desktops, 992px and up) */
-@media screen and (min-width: 992px){
-    .stuff{
-        flex-direction: column;
-        justify-content: center;
-    }
 }
