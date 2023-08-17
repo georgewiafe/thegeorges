@@ -14,10 +14,16 @@
     margin-bottom: 50px;
     align-items: center;
     background-color: lightgrey;
+    /* Code below keeps it fixed and no gaps */
+    position: fixed;
+    top: 0;
+    left: 0;
 }
 
 .logo {
     width: 60px;
+    /* Add 'position: absolute' to have the logo not be affected by the div*/
+    position: absolute;
 }
 
 .logo img {
@@ -32,7 +38,9 @@
     top: 0px;
     padding: 10px;
     text-align: center;
-    margin-right: 75%;
+    /* Use margin auto instead to center */
+    /* margin-right: 75%; */
+    margin: auto;
     text-decoration: none;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
@@ -40,7 +48,8 @@
 .nav ul {
     list-style: none;
     display: flex;
-    position: fixed;
+    /* Don't place fixed on the ul only on the top most parent */
+    /* position: fixed; */ 
 }
 
 .nav ul li {
