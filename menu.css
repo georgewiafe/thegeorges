@@ -3,22 +3,48 @@
     float: left;
     gap: 20px;
 }
-.first ul{
+.first ul li{
     list-style: circle;
     color: black;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 25px;
+}
+.first ul li:hover{
+    font-size: 30px;
+}
+.first h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 50px;
 }
 .box{
-    width: 5%;
-    height: 100px;
-    background-color: cornflowerblue; 
+    width: 15%;
+    height: 225px;
     display: flex;
-    padding: 20px;
+    padding: 150px;
+    margin-right: 90px;
+    gap: 10px;
 }
-.box:hover{
-    background-color: rgb(0, 88, 252);
-}
-.apetizers{
+.container{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    border: 50px black double;
+}
+/* Extra small devices (phones, 600px and down) */
+@media screen and (max-width: 600px){
+}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media screen and (min-width: 600px){
+
+}
+ /* Medium devices (landscape tablets, 768px and up) */
+@media screen and (min-width: 768px)
+{
+    }
+/* Large devices (laptops/desktops, 992px and up) */
+@media screen and (min-width: 992px){
+
+}
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media screen and (min-width: 1200px){
+
 }
