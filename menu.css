@@ -39,24 +39,43 @@
 #main-container{
     display: flex;
     flex-direction: row;
+}
+.body{
     border: 25px black double;
 }
 /* Extra small devices (phones, 600px and down) */
 @media screen and (max-width: 600px){
+    #main-container{
+        flex-direction: column;
+    }
+    .box{
+        margin-right: 10px;
+        padding: 10px;
+        padding-top: 120px;
+    }   
 }
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media screen and (min-width: 600px){
+    #main-container{
+        flex-direction: column;
+    }
 
 }
  /* Medium devices (landscape tablets, 768px and up) */
-@media screen and (min-width: 768px)
-{
+@media screen and (min-width: 768px){
+    #main-container{
+        flex-direction: row;
     }
+}
 /* Large devices (laptops/desktops, 992px and up) */
 @media screen and (min-width: 992px){
-
+    #main-container{
+        flex-direction: column;
+}
 }
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media screen and (min-width: 1200px){
-
+    #main-container{
+        flex-direction: row;
+    }
 }
