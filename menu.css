@@ -28,6 +28,62 @@
     display: flex;
     flex-direction: row;
 }
+#header {
+    width: 100%;
+    height: 100px;
+    border-bottom: 1px solid #DEDEDE;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+    align-items: center;
+    background-color: lightgrey;
+    /* Code below keeps it fixed and no gaps */
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.logo {
+    width: 60px;
+    /* Add 'position: absolute' to have the logo not be affected by the div*/
+    position: absolute;
+}
+
+.logo img {
+    width: 100%;
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: auto;
+    top: 0px;
+    padding: 10px;
+    text-align: center;
+    /* Use margin auto instead to center */
+    /* margin-right: 75%; */
+    margin: auto;
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.nav ul {
+    list-style: none;
+    display: flex;
+    /* Don't place fixed on the ul only on the top most parent */
+    /* position: fixed; */ 
+}
+
+.nav ul li {
+    margin-left: 20px;
+}
+.nav ul li:hover{
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
 .container{
     display: flex;
     flex-direction: column;
