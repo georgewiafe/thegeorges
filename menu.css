@@ -95,6 +95,7 @@
 #main-container{
     display: flex;
     flex-direction: row;
+    overflow: hidden;
 }
 .body{
     border: 25px black double;
@@ -103,9 +104,10 @@
 @media screen and (max-width: 600px){
     #main-container{
         flex-direction: column;
+        justify-content: center;
     }
     .box{
-        margin-right: 10px;
+        margin-right: auto;
         padding: 10px;
         padding-top: 120px;
     }
